@@ -1,0 +1,128 @@
+{
+  "evaluated_at_utc": "2026-10-15T07:23:40.806158+00:00",
+  "data_note": "All training/test/retrieval documents are small and synthetic. Results do not estimate real-world performance.",
+  "classification": {
+    "samples": 20,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "by_category": {
+      "إجراءات": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 5.0
+      },
+      "تقارير": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 5.0
+      },
+      "سياسات": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 5.0
+      },
+      "محاضر": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 5.0
+      },
+      "accuracy": 1.0,
+      "macro avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 20.0
+      },
+      "weighted avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 20.0
+      }
+    },
+    "errors": []
+  },
+  "retrieval": {
+    "questions": 8,
+    "hit_at_1": 1.0,
+    "hit_at_3": 1.0,
+    "details": [
+      {
+        "question": "ما المطلوب قبل إرسال السجلات الحساسة؟",
+        "expected_source": "policy_data.txt",
+        "expected_quote": "موافقة مالك البيانات",
+        "top_1_hit": true,
+        "top_3_hit": true,
+        "returned_results": 1,
+        "top_result": "policy_data.txt"
+      },
+      {
+        "question": "كم مرة تتم مراجعة ضوابط مشاركة البيانات؟",
+        "expected_source": "policy_data.txt",
+        "expected_quote": "مرة واحدة كل سنة",
+        "top_1_hit": true,
+        "top_3_hit": true,
+        "returned_results": 1,
+        "top_result": "policy_data.txt"
+      },
+      {
+        "question": "كم بلغ عدد الطلبات المكتملة؟",
+        "expected_source": "performance_report.txt",
+        "expected_quote": "240 طلبا",
+        "top_1_hit": true,
+        "top_3_hit": true,
+        "returned_results": 1,
+        "top_result": "performance_report.txt"
+      },
+      {
+        "question": "ما نسبة رضا المستفيدين؟",
+        "expected_source": "performance_report.txt",
+        "expected_quote": "92%",
+        "top_1_hit": true,
+        "top_3_hit": true,
+        "returned_results": 1,
+        "top_result": "performance_report.txt"
+      },
+      {
+        "question": "من المكلف بإعداد النسخة الأولية من الواجهة؟",
+        "expected_source": "meeting_minutes.txt",
+        "expected_quote": "سارة إعداد النسخة الأولية",
+        "top_1_hit": true,
+        "top_3_hit": true,
+        "returned_results": 1,
+        "top_result": "meeting_minutes.txt"
+      },
+      {
+        "question": "ما موعد مراجعة المخرجات؟",
+        "expected_source": "meeting_minutes.txt",
+        "expected_quote": "15/11/2026",
+        "top_1_hit": true,
+        "top_3_hit": true,
+        "returned_results": 1,
+        "top_result": "meeting_minutes.txt"
+      },
+      {
+        "question": "ماذا يفعل الموظف في الخطوة الثانية؟",
+        "expected_source": "procedure_guide.txt",
+        "expected_quote": "يراجع الموظف البيانات",
+        "top_1_hit": true,
+        "top_3_hit": true,
+        "returned_results": 1,
+        "top_result": "procedure_guide.txt"
+      },
+      {
+        "question": "ماذا يحدث إذا نقصت المستندات؟",
+        "expected_source": "procedure_guide.txt",
+        "expected_quote": "يعاد الطلب إلى المستفيد",
+        "top_1_hit": true,
+        "top_3_hit": true,
+        "returned_results": 1,
+        "top_result": "procedure_guide.txt"
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "question": "ما المطلوب قبل إرسال السجلات الحساسة؟",
+    "source": "policy_data.txt",
+    "quote": "موافقة مالك البيانات"
+  },
+  {
+    "question": "كم مرة تتم مراجعة ضوابط مشاركة البيانات؟",
+    "source": "policy_data.txt",
+    "quote": "مرة واحدة كل سنة"
+  },
+  {
+    "question": "كم بلغ عدد الطلبات المكتملة؟",
+    "source": "performance_report.txt",
+    "quote": "240 طلبا"
+  },
+  {
+    "question": "ما نسبة رضا المستفيدين؟",
+    "source": "performance_report.txt",
+    "quote": "92%"
+  },
+  {
+    "question": "من المكلف بإعداد النسخة الأولية من الواجهة؟",
+    "source": "meeting_minutes.txt",
+    "quote": "سارة إعداد النسخة الأولية"
+  },
+  {
+    "question": "ما موعد مراجعة المخرجات؟",
+    "source": "meeting_minutes.txt",
+    "quote": "15/11/2026"
+  },
+  {
+    "question": "ماذا يفعل الموظف في الخطوة الثانية؟",
+    "source": "procedure_guide.txt",
+    "quote": "يراجع الموظف البيانات"
+  },
+  {
+    "question": "ماذا يحدث إذا نقصت المستندات؟",
+    "source": "procedure_guide.txt",
+    "quote": "يعاد الطلب إلى المستفيد"
+  }
+]
